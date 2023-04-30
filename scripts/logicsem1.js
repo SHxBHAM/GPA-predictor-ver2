@@ -24,5 +24,5 @@ function calculatecgpa() {
     var pes318 = parseInt(pes318.value)
     pes318 *= 3
     var final = (che110+cse111+cse326+ece249+ece279+int108+mth174+pes318)/24
-    console.log(final.toFixed(2))
+    alert("your projected cgpa is:"+" "+final.toFixed(2) )
 }
