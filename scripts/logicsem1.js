@@ -22,7 +22,7 @@ function calculatecgpa() {
     mth174 *= 4
     var pes318 = document.getElementById("pes318");
     var pes318 = parseInt(pes318.value)
-    pes318 *= 4
-    var final = (che110+cse111+cse326+ece249+ece279+int108+pes318)/24
-    console.log(final)
+    pes318 *= 3
+    var final = (che110+cse111+cse326+ece249+ece279+int108+mth174+pes318)/24
+    console.log(final.toFixed(2))
 }
